@@ -11,10 +11,11 @@
 
 :root {
     --main-white: #fffdfd;
-    --main-red: #000000;
+    --main-red: #f1c40f ;
     --main-blue: #0f64c6;
     --main-gray: #303841;
-}
+    --main-green: linear-gradient(62deg, #3a3d40 0%, #181719 100%);  ;
+  }
 
 /* :root {
     --main-white: #f0f0f0;
@@ -28,6 +29,10 @@ html {
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
+
+.container {
+    scroll-behavior: inherit;
+  }
 
 @media (max-width: 75em) {
     html {
@@ -132,7 +137,7 @@ img {
 }
 
 .nav-list a:hover {
-    background: var(--main-blue);
+    background: var(--main-gray);
 }
 
 .welcome-section {
@@ -157,6 +162,12 @@ img {
     text-align: center;
     padding: 10rem 2rem;
     background: var(--main-blue);
+}
+
+.certificates-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    background: var(--main-green);
 }
 
 .projects-section-header {
