@@ -11,11 +11,12 @@
 
 :root {
     --main-white: #fffdfd;
-    --main-red: #f1c40f ;
+    --main-red: #f1c40f;
     --main-blue: #0f64c6;
     --main-gray: #303841;
-    --main-green: linear-gradient(62deg, #3a3d40 0%, #181719 100%);  ;
-  }
+    --main-green: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    ;
+}
 
 /* :root {
     --main-white: #f0f0f0;
@@ -32,7 +33,7 @@ html {
 
 .container {
     scroll-behavior: inherit;
-  }
+}
 
 @media (max-width: 75em) {
     html {
