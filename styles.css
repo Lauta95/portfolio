@@ -229,6 +229,11 @@ img {
     padding: 2rem 0.5rem;
 }
 
+.descripcion {
+    max-width: 1200px;
+    margin: 0 auto 6rem auto;
+}
+
 .btn {
     display: inline-block;
     padding: 1rem 2rem;
